@@ -1,5 +1,9 @@
 .App {
+  background-color: #88a788;
+  min-height: 100vh;
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .App-logo {
@@ -7,15 +11,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +21,70 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calendar div {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #333;
+}
+
+.calendar h3 {
+  grid-column: span 7;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 18px;
+  border-bottom: 2px solid #333;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.date:hover, .date.focus {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.polaroid {
+  width: 90%;
+  max-width: 350px;
+  aspect-ratio: 5 / 6;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.7960784314);
+  padding: 10px;
+  padding-top: 30px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.62);
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  align-items: center;
+  position: relative;
+  margin:auto;
+}
+
+.polaroid img {
+  width: 100%;
+  height: auto;
+  max-width: 310px;
+  aspect-ratio: 1 / 1;
+  border: 1px solid rgba(0, 0, 0, 0.7960784314);
+  object-fit: cover;
+  object-position: 0 45%;
+}
+
+.polaroid .caption {
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
 }
