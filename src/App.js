@@ -9,7 +9,7 @@ function App() {
   const [displayDate, setDisplayDate] = useState(false);
 
   const onDateClick = (date) =>{
-    const currentDate = 20;//new Date().getDate();
+    const currentDate = new Date().getDate();
     if (currentDate < parseInt(date)) {
       setDisplayDate(false);
     } else {
@@ -42,8 +42,8 @@ function App() {
     }
     const day = calendar.days.find(d => d.day === activeDate);
     return (<>
-      <p>{day.title}</p>
-      <p>{day.message}</p>
+      <p className='modal-title'>{day.title}</p>
+      <p className='modal-msg'>{day.message}</p>
       {day.img && polaroid(day.img, day.title, day.caption)}
     </>);
   }
@@ -51,7 +51,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        12 days until christmas
+        welcome to your<br />
+        14 days before christmas
       </header>
       <div className="calendar">
         <h3>december 2024</h3>
@@ -87,6 +88,10 @@ function App() {
         <div onClick={() => setActiveDate()}></div>
         <div onClick={() => setActiveDate()}></div>
       </div>
+      <p className='footer'>
+        Click on a day to see what I got in store for you - can't look ahead though!<br />
+        Specially curated by yours truly~
+      </p>
       <Modal isOpen={modalOpen} onClose={onDateClose} day={activeDate}>
         {modalContent()}
       </Modal>
