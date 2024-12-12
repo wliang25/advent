@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/advent/static/css/main.79f027de.css",
-    "main.js": "/advent/static/js/main.ab485f63.js",
+    "main.css": "/advent/static/css/main.8da74e2c.css",
+    "main.js": "/advent/static/js/main.ef24f926.js",
     "static/js/453.abeb52d7.chunk.js": "/advent/static/js/453.abeb52d7.chunk.js",
     "index.html": "/advent/index.html",
-    "main.79f027de.css.map": "/advent/static/css/main.79f027de.css.map",
-    "main.ab485f63.js.map": "/advent/static/js/main.ab485f63.js.map",
+    "main.8da74e2c.css.map": "/advent/static/css/main.8da74e2c.css.map",
+    "main.ef24f926.js.map": "/advent/static/js/main.ef24f926.js.map",
     "453.abeb52d7.chunk.js.map": "/advent/static/js/453.abeb52d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79f027de.css",
-    "static/js/main.ab485f63.js"
+    "static/css/main.8da74e2c.css",
+    "static/js/main.ef24f926.js"
   ]
 }
