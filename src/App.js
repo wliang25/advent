@@ -41,10 +41,14 @@ function App() {
       );
     }
     const day = calendar.days.find(d => d.day === activeDate);
+    const imgDisplay = day.img && 
+      (day.polaroid ? 
+        polaroid(day.img, day.title, day.caption)
+        : <img src={`./imgs/${day.img}`} alt={day.title} />);
     return (<>
       <p className='modal-title'>{day.title}</p>
       <p className='modal-msg'>{day.message}</p>
-      {day.img && polaroid(day.img, day.title, day.caption)}
+      {imgDisplay}
     </>);
   }
 

@@ -5,6 +5,7 @@
       "title": "2 weeks until christmas",
       "message": "To kick off this countdown, here's a cute picture of us hehe",
       "img": "sunsetwaterfront.jpeg",
+      "polaroid": true,
       "caption": "10/25/2024 \n Seattle waterfront ft. a shy goofball"
     },
     {
@@ -12,13 +13,15 @@
       "title": "13 days until christmas",
       "message": "Here's to some new year resolutions that probably includes working out of sorts",
       "img": "helix.jpg",
-      "caption": "I was gonna get you one already and then you went and put it on your secret santa wishlist - Aiyah, so I just checked it off and bought it."
+      "polaroid": true,
+      "caption": "I was gonna get you one already and then you went and put it on your secret santa wishlist - Aiyah, so I just checked it off and bought it. Come redeem."
     },
     {
       "day": "13",
       "title": "happy friday the 13th!",
       "message": "Since it's about to be the weekend and weekend means drinking and drinking means quad shots \n Don't worry! \n I've secured you a sub a friend card in the form of AQT!",
       "img": "aqt.png",
+      "polaroid": false,
       "caption": "Hehehe, show AQT this when you don't want your quad or single - what a homie!"
     },
     {
@@ -31,7 +34,8 @@
       "day": "15",
       "title": "Part one of the secret santa festivities!",
       "message": "Also the day before a work day, sadge. I got you something from Costco to help keep you warm!",
-      "img": "heattech.png"
+      "img": "heattech.png",
+      "polaroid": false
     },
     {
       "day": "16",
