@@ -27,12 +27,14 @@
     {
       "day": "14",
       "title": "happy saturday!",
-      "message": "",
-      "img": ""
+      "message": "I'm really glad I get to spend my weekends with my bb gurl - let's do a mask today!",
+      "img": "mask.jpg",
+      "polaroid": true,
+      "caption": "Can't believe this was one the first times you slept over and we were comfy enuf to do face masks, just chilling in bed. O.o"
     },
     {
       "day": "15",
-      "title": "Part one of the secret santa festivities!",
+      "title": "part one of the secret santa festivities!",
       "message": "Also the day before a work day, sadge. I got you something from Costco to help keep you warm!",
       "img": "heattech.png",
       "polaroid": false
